@@ -401,3 +401,88 @@ footer p {
 .pro-box:hover::before {
   opacity: 0.08;
 }
+
+
+@media (max-width: 576px) {
+
+  .hero {
+    min-height: auto;
+    padding-top: 70px;
+    padding-bottom: 30px;
+  }
+
+  /* Profile image */
+  .hero img,
+  .profile-img {
+    margin-bottom: 12px;
+  }
+
+  /* Name heading */
+  .hero h1 {
+    margin-top: 10px;
+    margin-bottom: 8px;
+    line-height: 1.2;
+  }
+
+  /* Role text */
+  .hero h2 {
+    margin-bottom: 14px;
+  }
+
+  /* Description paragraph */
+  .hero p {
+    margin-top: 10px;
+    margin-bottom: 22px;
+    line-height: 1.45;
+  }
+
+  /* Buttons */
+  .hero .btn-group,
+  .hero-buttons {
+    margin-top: 10px;
+    gap: 12px;
+  }
+}
+
+@media (max-width: 576px) {
+
+  /* Reduce padding for ALL sections on mobile */
+  section {
+    padding: 40px 0;
+  }
+
+  /* Home section FIX */
+  #Home {
+    padding-top: 70px;
+    padding-bottom: 30px;
+  }
+
+  /* Profile image */
+  #Home img {
+    margin-bottom: 12px;
+  }
+
+  /* Name heading */
+  #Home h1 {
+    margin-top: 8px;
+    margin-bottom: 6px;
+    line-height: 1.2;
+  }
+
+  /* Role text */
+  #Home h2 {
+    margin-bottom: 12px;
+  }
+
+  /* Description paragraph */
+  #Home p {
+    margin-top: 8px;
+    margin-bottom: 18px;
+    line-height: 1.45;
+  }
+
+  /* Buttons */
+  #Home .contact-but {
+    margin-top: 8px;
+  }
+}
