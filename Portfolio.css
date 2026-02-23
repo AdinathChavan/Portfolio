@@ -100,7 +100,7 @@ a {
 }
 #Home img {
     width: 200px;
-    height: 200px;
+    height: 230px;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 20px;
@@ -289,7 +289,7 @@ footer p {
 @media (max-width: 991px) {
     #Home img {
         width: 150px;
-        height: 150px;
+        height: 180px;
     }
     #Home h1 {
         font-size: 1.5rem;
@@ -486,3 +486,5 @@ footer p {
     margin-top: 8px;
   }
 }
+
+
